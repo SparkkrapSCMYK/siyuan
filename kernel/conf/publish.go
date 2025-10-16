@@ -36,7 +36,7 @@ type BasicAuthAccount struct {
 func NewPublish() *Publish {
 	return &Publish{
 		Enable: false,
-		Port:   6808,
+		Port:   80,
 		Auth: &BasicAuth{
 			Enable:   true,
 			Accounts: []*BasicAuthAccount{},
